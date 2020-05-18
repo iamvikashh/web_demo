@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:web/animation_demo/shape_shifting_animation.dart';
 
-import 'home/home_page.dart';
-import 'login/login.dart';
 
 void main()=>runApp(MyApp());
 
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: AnimatedContainerDemo(),
     );
   }
 }
